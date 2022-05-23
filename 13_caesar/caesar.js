@@ -11,7 +11,6 @@ for (let i = 0; i < cipher.length; i++) {
     else if  (e > 96 && e < 123) {
         let upperE = e - 32;
         ans += String.fromCharCode((upperE+num +65) % 26 + 65).toLowerCase();
-        console.log(ans)
     }
     else {
         ans += cipher[i]
